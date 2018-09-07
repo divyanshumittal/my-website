@@ -1,12 +1,157 @@
+@import './mixin.scss';
+
 .experience {
   display: flex;
+  justify-content: center;
 
-  .timeline {
-    flex-basis: 40%;
+  .experience-sub {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
-  .skills {
-    
+  .item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hightlights {
+    padding-right: 10px;
+  }
+
+  .line1 {
+    @include line(#d9a74a);
+  }
+
+  .oracle-netiq-container {
+    @include display-flex-center();
+    height: 110px;
+
+    .left,.right {
+      flex: 4;
+    }
+
+    .netiq {
+      img {
+        height: 65px;
+        width: 95px;
+      }
+    }
+
+    .oracle {
+      img {
+        height: 80px;
+        width: 95px;
+      }
+    }
+
+    .padding-top-10 {
+      padding-top: 10px;
+    }
+
+    .circle {
+      @include circle(#d9a74a);
+    }
+  }
+
+  .line2 {
+    @include line(#f47389);
+  }
+
+  .halliburton-container {
+    @include display-flex-center();
+    height: 110px;
+
+    .left,.right {
+      flex: 4;
+    }
+
+    img {
+      height: 90px;
+      width: 120px;
+    }
+
+    .circle {
+      @include circle(#f47389);
+    }
+  }
+
+  .line3 {
+    @include line(#59a3bb);
+  }
+
+  .egen-container {
+    @include display-flex-center();
+
+    .left,.right {
+      flex: 4;
+    }
+
+    .egen {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 60px;
+        width: 60px;
+      }
+    }
+
+    .uptake {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 55px;
+        width: 115px;
+      }
+    }
+
+    .circle {
+      @include circle(#59a3bb);
+    }
+  }
+
+  .line4 {
+    @include line(#92b260);
+  }
+
+  .tempus-container {
+    @include display-flex-center();
+    .left,.right {
+      flex: 4;
+    }
+
+    .tempus {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 60px;
+        width: 120px;
+      }
+    }
+
+    .aws {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 75px;
+        width: 130px;
+      }
+    }
+
+    .circle {
+      @include circle(#92b260);
+    }
   }
 }

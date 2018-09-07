@@ -11,12 +11,15 @@ const Home = () => (
           Hi, my name is <b>Divyanshu Mittal</b>. With me is my friend, lover, inspiration and
           an awesome human being.
           <div className="hobbies">
-            <i>I am a software developer by profession, who has a knack of building things</i>
+            <i>I am a full stack software developer by profession, who has a knack of building things</i>
           </div>
         </div>
       </div>
       <img src={us} />
     </div>
+    <footer>
+      DO IT WITH PASSION OR NOT AT ALL
+    </footer>
   </div>
 );
 

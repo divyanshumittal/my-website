@@ -1,0 +1,29 @@
+@mixin line($color) {
+  height: 30px;
+  width: 8px;
+  background-color: $color;
+}
+
+@mixin circle($color) {
+  flex: 1;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 6px solid $color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .year {
+    font-weight: bold;
+    top: 19px;
+    left: 12px;
+    font-size: 1.2em;
+  }
+}
+
+@mixin display-flex-center() {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}

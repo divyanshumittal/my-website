@@ -17,23 +17,18 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <header className="App-header">
+          <header>
             <Link to="/">Home</Link>
-            <Link to="/education">Education</Link>
+            {/* <Link to="/education">Education</Link> */}
             <Link to="/experience">Experience</Link>
             <Link to="/hobbies">Hobbies</Link>
           </header>
           <main>
-            <div className="container">
-              <Route exact path="/" component={Home} />
-              <Route exact path="/education" component={Education} />
-              <Route exact path="/experience" component={Experience} />
-              <Route exact path="/hobbies" component={Hobbies} />
-            </div>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/education" component={Education} />
+            <Route exact path="/experience" component={Experience} />
+            <Route exact path="/hobbies" component={Hobbies} />
           </main>
-          <footer>
-            DO IT WITH PASSION OR NOT AT ALL
-          </footer>
           {/* <p className="App-intro">
             <button onClick={this.simpleAction}>Test redux action</button>
           </p>

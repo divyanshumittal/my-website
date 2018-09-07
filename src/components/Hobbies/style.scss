@@ -1,10 +1,22 @@
 .hobbies {
   .links-title {
     font-weight: 600;
-    margin: 30px 10px;
+    padding: 30px 10px 10px 10px;
   }
 
   .github-url {
     margin: 20px 10px;
+  }
+
+  .credits {
+    font-weight: bold;
+    padding: 10px 0 0 10px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  a {
+    color: ivory;
   }
 }

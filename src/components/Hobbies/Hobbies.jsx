@@ -7,12 +7,13 @@ const Hobbies = () => (
     <div className="links-title">Things I love doing</div>
     <ul>
       <li>Adventure sports - Rafting, Kayaking</li>
-      <li>Taking photos (I suck at it)</li>
-      <li>Cooking (Better than my photography skills), Thai and Ethopian cuisines are the best</li>
-      <li>Playing board games</li>
-      <li>Travelling, Colorado has no competition, believe me</li>
+      <li>Taking photos (I suck at it though)</li>
+      <li>Cooking (Better than my photography skills), <b>Thai</b> and <b>Ethopian</b> cuisines are my best</li>
+      <li>Playing board games, <b>Catan</b> is fun</li>
+      <li>Travelling, <b>Colorado</b> has no competition, believe me</li>
       <li>Playing sports - Cricket, racketball, basketball are my favourites</li>
     </ul>
+    <div className="credits">Credits:</div>
     <div className="links-title">Links used for building this website:</div>
     <ul>
       <li>

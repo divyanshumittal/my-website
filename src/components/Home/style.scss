@@ -8,9 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
-    background-color: ivory;
-    // flex-basis: 35%;
   }
   
   .bio {
@@ -27,5 +24,15 @@
     max-width: 100%;
     max-height: 100%;
     width: 1000px;
+  }
+
+  footer {
+    height: 50px;
+    background-color: #222;
+    color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
